@@ -23,6 +23,7 @@ const providerConfig = {
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: "https://main.dh81w1al6xzzw.amplifyapp.com/",
+    audience: "https://main.dh81w1al6xzzw.amplifyapp.com/"
   },
 };
 
