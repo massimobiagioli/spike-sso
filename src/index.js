@@ -24,7 +24,7 @@ const providerConfig = {
   authorizationParams: {
     redirect_uri: "https://main.dh81w1al6xzzw.amplifyapp.com",
     audience: "https://it-portfolio-api",
-    scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address",
+    scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address+picture",
   },
 };
 
