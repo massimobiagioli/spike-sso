@@ -9,12 +9,7 @@ export const ProfileComponent = () => {
 	useEffect(() => {
 		(async () => {
 			try {
-				const token = await getAccessTokenSilently({
-					ignoreCache: true,
-					authorizationParams: {
-						scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address" 
-					}
-				});
+				const token = await getAccessTokenSilently({ ignoreCache: true });
 				console.log('token', token);
 			} catch (e) {
 				// Handle errors such as `login_required` and `consent_required` by re-prompting for a login
