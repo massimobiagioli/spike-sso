@@ -17,15 +17,15 @@ const onRedirectCallback = (appState) => {
 // for a full list of the available properties on the provider
 const config = getConfig();
 
+// scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address+picture",
 const providerConfig = {
   domain: config.domain,
   clientId: config.clientId,
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: "https://main.dh81w1al6xzzw.amplifyapp.com",
-    audience: "https://it-portfolio-api",
-    scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address+picture",
-  },
+    audience: "https://it-portfolio-api"
+  }
 };
 
 const root = createRoot(document.getElementById('root'));
