@@ -20,6 +20,7 @@ const config = getConfig();
 const providerConfig = {
   domain: config.domain,
   clientId: config.clientId,
+  scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address",
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: "https://main.dh81w1al6xzzw.amplifyapp.com",
