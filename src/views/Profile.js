@@ -9,9 +9,10 @@ export const ProfileComponent = () => {
 	useEffect(() => {
 		(async () => {
 			try {
-				const token = await getAccessTokenSilently({ 
-					ignoreCache: true,
-					scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address" 
+				const token = await getAccessTokenSilently({
+					authorizationParams: {
+						scope: "openid+profile+offline_access+name+given_name+family_name+nickname+email+email_verified+picture+created_at+identities+phone+address" 
+					}
 				});
 				console.log('token', token);
 			} catch (e) {
