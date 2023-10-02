@@ -9,14 +9,7 @@ export const ProfileComponent = () => {
 	useEffect(() => {
 		(async () => {
 			try {
-				const token = await getAccessTokenSilently(
-				{ 
-					cacheMode: 'off',
-					authorizationParams: {
-						audience: "https://it-portfolio-api",
-    					scope: "profile email name given_name family_name"
-					}
-				});
+				const token = await getAccessTokenSilently({});
 				console.log('token', token);
 			} catch (e) {
 				// Handle errors such as `login_required` and `consent_required` by re-prompting for a login
