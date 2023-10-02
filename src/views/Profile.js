@@ -11,7 +11,11 @@ export const ProfileComponent = () => {
 			try {
 				const token = await getAccessTokenSilently(
 				{ 
-					cacheMode: 'off'
+					cacheMode: 'off',
+					authorizationParams: {
+						audience: "https://it-portfolio-api",
+    					scope: "profile email name given_name family_name"
+					}
 				});
 				console.log('token', token);
 			} catch (e) {
