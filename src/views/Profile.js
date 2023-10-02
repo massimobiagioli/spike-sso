@@ -11,10 +11,7 @@ export const ProfileComponent = () => {
 			try {
 				const token = await getAccessTokenSilently(
 				{ 
-					ignoreCache: true,
-					authorizationParams: {
-						scope: "openid+profile+email+name+given_name+family_name"
-					}
+					ignoreCache: true
 				});
 				console.log('token', token);
 			} catch (e) {
