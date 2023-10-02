@@ -12,7 +12,7 @@ export const ProfileComponent = () => {
 				const token = await getAccessTokenSilently(
 				{ 
 					authorizationParams: {
-						scope: "name+given_name+family_name+email"
+						scope: "read:current_user"
 					}
 				});
 				console.log('token', token);
