@@ -9,9 +9,11 @@ export const ProfileComponent = () => {
 	useEffect(() => {
 		(async () => {
 			try {
-				const token = await getAccessTokenSilently({ 
-					ignoreCache: true,
-					scope: "name+given_name+family_name+email",
+				const token = await getAccessTokenSilently(
+				{ 
+					authorizationParams: {
+						scope: "name+given_name+family_name+email"
+					}
 				});
 				console.log('token', token);
 			} catch (e) {
