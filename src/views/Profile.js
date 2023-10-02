@@ -11,7 +11,7 @@ export const ProfileComponent = () => {
 			try {
 				const token = await getAccessTokenSilently(
 				{ 
-					ignoreCache: true,
+					cacheMode: 'off',
 					authorizationParams: {
 						scope: "profile email name given_name family_name"
 					}
