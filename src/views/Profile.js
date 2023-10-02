@@ -13,7 +13,7 @@ export const ProfileComponent = () => {
 				{ 
 					ignoreCache: true,
 					authorizationParams: {
-						scope: "name+given_name+family_name+email",
+						scope: "openid+profile+email+name+given_name+family_name"
 					}
 				});
 				console.log('token', token);

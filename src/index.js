@@ -24,7 +24,8 @@ const providerConfig = {
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: "https://main.dh81w1al6xzzw.amplifyapp.com",
-    audience: "https://it-portfolio-api"
+    audience: "https://it-portfolio-api",
+    scope: "openid+profile+email+name+given_name+family_name"
   }
 };
 
