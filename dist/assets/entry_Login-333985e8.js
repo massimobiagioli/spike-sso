@@ -1,0 +1,1 @@
+import{C as r,j as o,R as _,m as n,f as s}from"./core.min-1624fbb4.js";const i=()=>r(_,{children:o("button",null,{onClick$:n(()=>s(()=>import("./s_gn5wmm25qkg-a4a659e6.js"),["assets/s_gn5wmm25qkg-a4a659e6.js","assets/app-5560a371.js","assets/core.min-1624fbb4.js"]),"s_GN5wMm25qkg")},"Login",3,null)},3,"9x_0");export{i as s_di6X54kGn2g};

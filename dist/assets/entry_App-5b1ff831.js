@@ -1,0 +1,1 @@
+import{i as o,R as t}from"./index-2818046d.js";import{C as e,b as r}from"./core.min-1624fbb4.js";import{r as s}from"./app-5560a371.js";const m=()=>(o(window.location.href),e(t,{get routes(){return s},[r]:{routes:r}},3,"4e_0"));export{m as s_AkbU84a8zes};

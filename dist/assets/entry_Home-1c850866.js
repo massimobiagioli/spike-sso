@@ -1,0 +1,1 @@
+import{L as e}from"./index-2818046d.js";import{C as r,b as o,R as i}from"./core.min-1624fbb4.js";const t=()=>r(i,{children:["Home",r(e,{children:"Login",href:"/login",[o]:{href:o}},3,"I4_0")]},1,"I4_1");export{t as s_2sV4bxG09Ck};
