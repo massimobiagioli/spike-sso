@@ -11,6 +11,7 @@ export const ProfileComponent = () => {
 			try {
 				const token = await getAccessTokenSilently(
 				{ 
+					ignoreCache: true,
 					authorizationParams: {
 						scope: "read:current_user"
 					}
