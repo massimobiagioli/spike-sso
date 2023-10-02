@@ -10,7 +10,7 @@ export const ProfileComponent = () => {
 		(async () => {
 			try {
 				const id_token = getIdTokenClaims();
-				console.log('id_token : ', id_token.__raw);
+				console.log('id_token : ', id_token);
 				const access_token = await getAccessTokenSilently({});
 				console.log('access_token : ', access_token);
 			} catch (e) {
