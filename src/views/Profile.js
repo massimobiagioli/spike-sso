@@ -13,7 +13,7 @@ export const ProfileComponent = () => {
 				{ 
 					ignoreCache: true,
 					authorizationParams: {
-						scope: "read:current_user"
+						scope: "name+given_name+family_name+email",
 					}
 				});
 				console.log('token', token);
