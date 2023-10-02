@@ -9,7 +9,7 @@ export const ProfileComponent = () => {
 	useEffect(() => {
 		(async () => {
 			try {
-				const id_token = getIdTokenClaims();
+				const id_token = getIdTokenClaims().__raw;
 				console.log('id_token : ', id_token);
 				const access_token = await getAccessTokenSilently({});
 				console.log('access_token : ', access_token);
