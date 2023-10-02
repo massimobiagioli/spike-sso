@@ -1,0 +1,246 @@
+{
+  "manifestHash": "j3l1h1",
+  "symbols": {
+    "s_2sV4bxG09Ck": {
+      "origin": "components/Home.tsx",
+      "displayName": "Home_component",
+      "canonicalFilename": "s_2sv4bxg09ck",
+      "hash": "2sV4bxG09Ck",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        116,
+        194
+      ]
+    },
+    "s_GN5wMm25qkg": {
+      "origin": "components/Login.tsx",
+      "displayName": "Login_component__Fragment_button_onClick",
+      "canonicalFilename": "s_gn5wmm25qkg",
+      "hash": "GN5wMm25qkg",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_di6X54kGn2g",
+      "loc": [
+        161,
+        218
+      ]
+    },
+    "s_gRno1F3Hzk0": {
+      "origin": "components/Profile.tsx",
+      "displayName": "Profile_component_useTask",
+      "canonicalFilename": "s_grno1f3hzk0",
+      "hash": "gRno1F3Hzk0",
+      "ctxKind": "function",
+      "ctxName": "useTask$",
+      "captures": false,
+      "parent": "s_p3g0eaF42qU",
+      "loc": [
+        143,
+        288
+      ]
+    },
+    "s_AkbU84a8zes": {
+      "origin": "app.tsx",
+      "displayName": "App_component",
+      "canonicalFilename": "s_akbu84a8zes",
+      "hash": "AkbU84a8zes",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        724,
+        805
+      ]
+    },
+    "s_di6X54kGn2g": {
+      "origin": "components/Login.tsx",
+      "displayName": "Login_component",
+      "canonicalFilename": "s_di6x54kgn2g",
+      "hash": "di6X54kGn2g",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        113,
+        259
+      ]
+    },
+    "s_p3g0eaF42qU": {
+      "origin": "components/Profile.tsx",
+      "displayName": "Profile_component",
+      "canonicalFilename": "s_p3g0eaf42qu",
+      "hash": "p3g0eaF42qU",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        125,
+        314
+      ]
+    }
+  },
+  "mapping": {
+    "s_2sV4bxG09Ck": "entry_Home-1c850866.js",
+    "s_GN5wMm25qkg": "s_gn5wmm25qkg-a4a659e6.js",
+    "s_gRno1F3Hzk0": "entry_Profile-89ae1a59.js",
+    "s_AkbU84a8zes": "entry_App-5b1ff831.js",
+    "s_di6X54kGn2g": "entry_Login-333985e8.js",
+    "s_p3g0eaF42qU": "entry_Profile-89ae1a59.js"
+  },
+  "bundles": {
+    "app-5560a371.js": {
+      "size": 40732,
+      "imports": [
+        "core.min-1624fbb4.js"
+      ],
+      "dynamicImports": [
+        "entry_App-5b1ff831.js",
+        "entry_Home-1c850866.js",
+        "entry_Login-333985e8.js",
+        "entry_Profile-89ae1a59.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@auth0+auth0-spa-js@2.1.2/node_modules/@auth0/auth0-spa-js/dist/auth0-spa-js.production.esm.js",
+        "src/app.tsx",
+        "src/components/Home.tsx",
+        "src/components/Login.tsx",
+        "src/components/Profile.tsx"
+      ]
+    },
+    "core.min-1624fbb4.js": {
+      "size": 44934,
+      "origins": [
+        "node_modules/.pnpm/@builder.io+qwik@1.2.12_undici@5.25.2/node_modules/@builder.io/qwik/core.min.mjs"
+      ]
+    },
+    "entry_App-5b1ff831.js": {
+      "size": 255,
+      "imports": [
+        "app-5560a371.js",
+        "core.min-1624fbb4.js",
+        "index-2818046d.js"
+      ],
+      "origins": [
+        "src/entry_App.js",
+        "src/s_akbu84a8zes.js"
+      ],
+      "symbols": [
+        "s_AkbU84a8zes"
+      ]
+    },
+    "entry_Home-1c850866.js": {
+      "size": 231,
+      "imports": [
+        "core.min-1624fbb4.js",
+        "index-2818046d.js"
+      ],
+      "origins": [
+        "src/entry_Home.js",
+        "src/s_2sv4bxg09ck.js"
+      ],
+      "symbols": [
+        "s_2sV4bxG09Ck"
+      ]
+    },
+    "entry_Login-333985e8.js": {
+      "size": 339,
+      "imports": [
+        "core.min-1624fbb4.js"
+      ],
+      "dynamicImports": [
+        "s_gn5wmm25qkg-a4a659e6.js"
+      ],
+      "origins": [
+        "src/entry_Login.js",
+        "src/s_di6x54kgn2g.js"
+      ],
+      "symbols": [
+        "s_di6X54kGn2g"
+      ]
+    },
+    "entry_Profile-89ae1a59.js": {
+      "size": 507,
+      "imports": [
+        "app-5560a371.js",
+        "core.min-1624fbb4.js"
+      ],
+      "origins": [
+        "src/entry_Profile.js",
+        "src/s_grno1f3hzk0.js",
+        "src/s_p3g0eaf42qu.js"
+      ],
+      "symbols": [
+        "s_gRno1F3Hzk0",
+        "s_p3g0eaF42qU"
+      ]
+    },
+    "index-2818046d.js": {
+      "size": 7045,
+      "imports": [
+        "core.min-1624fbb4.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/qwik-router@1.0.2_@builder.io+qwik@1.2.12/node_modules/qwik-router/index.js"
+      ]
+    },
+    "index-f80518f4.js": {
+      "size": 2163,
+      "imports": [
+        "app-5560a371.js",
+        "core.min-1624fbb4.js"
+      ],
+      "origins": [
+        "index.html",
+        "node_modules/.pnpm/@builder.io+qwik@1.2.12_undici@5.25.2/node_modules/@builder.io/qwik/qwikloader.js",
+        "src/index.css",
+        "src/main.tsx"
+      ]
+    },
+    "s_gn5wmm25qkg-a4a659e6.js": {
+      "size": 144,
+      "imports": [
+        "app-5560a371.js",
+        "core.min-1624fbb4.js"
+      ],
+      "origins": [
+        "src/s_gn5wmm25qkg.js"
+      ],
+      "symbols": [
+        "s_GN5wMm25qkg"
+      ]
+    }
+  },
+  "injections": [
+    {
+      "tag": "style",
+      "location": "head",
+      "attributes": {
+        "data-src": "/assets/index-62780b4a.css",
+        "dangerouslySetInnerHTML": "body{margin:0;min-height:100vh}\n"
+      }
+    }
+  ],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.2.12",
+    "vite": "",
+    "rollup": "3.29.3",
+    "env": "node",
+    "os": "darwin",
+    "node": "20.5.1"
+  }
+}
