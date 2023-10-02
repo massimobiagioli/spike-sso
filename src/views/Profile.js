@@ -4,13 +4,15 @@ import Loading from '../components/Loading';
 import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
 
 export const ProfileComponent = () => {
-	const { user, getAccessTokenSilently } = useAuth0();
+	const { user, getAccessTokenSilently, getIdTokenClaims } = useAuth0();
 
 	useEffect(() => {
 		(async () => {
 			try {
-				const token = await getAccessTokenSilently({});
-				console.log('token', token);
+				const id_token = getIdTokenClaims();
+				console.log('id_token : ', id_token);
+				const access_token = await getAccessTokenSilently({});
+				console.log('access_token : ', access_token);
 			} catch (e) {
 				// Handle errors such as `login_required` and `consent_required` by re-prompting for a login
 				console.error(e);
